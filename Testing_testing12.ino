@@ -3,8 +3,8 @@
 #include <WebServer.h>
 
 // ===== Wi-Fi Credentials =====
-const char* ssid = "WI-FI name";
-const char* password = "WI-FI password";
+const char* ssid = "WI-FI name"; //Your WI-FI name
+const char* password = "WI-FI password"; //Your WI-FI password
 
 // ===== SMTP (Gmail) Settings =====
 #define SMTP_HOST "smtp.gmail.com"
