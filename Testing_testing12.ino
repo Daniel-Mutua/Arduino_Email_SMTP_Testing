@@ -17,7 +17,7 @@ const char* emailRecipient = "Recipient's Email'";   // Recipient
 // ===== Web Server =====
 WebServer server(80);
 
-// HTML form
+// HTML form for the Web-server UI
 const char* htmlForm = R"rawliteral(
 <!DOCTYPE HTML>
 <html>
