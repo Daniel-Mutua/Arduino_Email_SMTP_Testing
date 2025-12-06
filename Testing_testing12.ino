@@ -48,7 +48,7 @@ void sendEmail(const String &subject, const String &message) {
   email.sender.email = emailSenderAccount;
   email.subject = subject.c_str();
   email.addRecipient("Recipient", emailRecipient);
-  email.addRecipient("fmwabengele@kabarak.ac.ke", emailRecipient);
+  email.addRecipient("Recepient 2", emailRecipient);
   email.text.content = message.c_str();
 
   ESP_Mail_Session session;
