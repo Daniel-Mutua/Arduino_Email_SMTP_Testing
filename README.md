@@ -31,6 +31,7 @@ installed:
 -   Required Libraries (depending on your project):
     -   `WiFi.h`
     -   `WebServer.h`
+    -   `SMTP.h`
     -   Any additional libraries used inside your `.ino` file
 
 ## How to Use
